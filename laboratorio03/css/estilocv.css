@@ -1,0 +1,44 @@
+body {
+  background-color: rgba(207, 204, 204, 0.651);
+  background-position: unset;
+}
+
+#tituloprincipal {
+  background-image: url(/img/fondo\ 1.jpg);
+  opacity: 80%;
+  color: rgb(0, 0, 0);
+}
+
+#imagenfondo {
+  background-image: url(/img/fondo2.jpg);
+}
+
+#item1 {
+  font-style: inherit;
+  font-weight: bolder;
+  color: black;
+}
+
+#titulosdeseccion {
+  background-color: rgba(207, 204, 204, 0.651);
+  font-style: italic;
+  font-weight: bolder;
+  color: black;
+}
+
+#pie {
+  background-image: url(/img/fondo\ 1.jpg);
+  opacity: 80%;
+  color: rgb(0, 0, 0);
+}
+
+#fondobotton {
+  background-color: rgba(207, 204, 204, 0.651);
+  font-style: italic;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.801);
+}
+
+#botton {
+  color: rgb(0, 0, 0);
+}
