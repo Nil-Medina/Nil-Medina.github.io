@@ -1,37 +1,71 @@
+*{
+  margin:0;
+  padding:0px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; 
+}
+
 body {
   width: 100%;
-  margin: 0;
+  margin: auto;
   height: 100%;
+  background-image: url(/img/Fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contenedor{
+  width: 200px;
+  height: auto;
+  margin: auto;
+  margin-bottom: 10%;
+}
+h1{
+  background-color: rgba(210, 105, 30, 0);
+  text-align: center;
+  color: white;
+  overflow: auto;
+  width: auto;
+  height: 90px;
+  margin-top: 50px;
+  font-size: 40px;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 150px;
-  background-color: gainsboro;
+  width: 200px;
+  margin-left: 45%;
   overflow: auto;
-  border: 1px solid #555;
+  border-radius: 20px;
+  background-color: rgba(245, 245, 245, 0);
 }
 
 li {
   text-align: center;
+  padding: 0%;
   border: 1px solid #555;
+  border-radius: 20px;
 }
 
 li a {
   display: block;
-  color: black;
-  padding: 8px 16px;
+  color: white;
+  padding: 18px 16px;
   text-decoration: none;
+  font-weight: bolder;
+  font-size: 17px;
 }
 
 li a.activo {
-  background-color: green;
+  background-color: orange;
   color: white;
+  border-radius: 20px;
 }
 
 li a:hover:not(.activo) {
-  background-color: #555;
-  color: white;
+  background-color: darkcyan;
+  color: black;
+  border-radius: 20px;
 }
