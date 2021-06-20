@@ -1,10 +1,4 @@
-*{
-  margin:0;
-  padding:0px;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box; 
-}
+
 
 body {
   width: 100%;
@@ -28,8 +22,10 @@ h1{
   width: auto;
   height: 90px;
   margin-top: 50px;
-  font-size: 40px;
+  font-size: 35px;
 }
+
+
 
 ul {
   list-style-type: none;
@@ -38,7 +34,6 @@ ul {
   width: 200px;
   margin-left: 45%;
   overflow: auto;
-  border-radius: 20px;
   background-color: rgba(245, 245, 245, 0);
 }
 
@@ -46,13 +41,12 @@ li {
   text-align: center;
   padding: 0%;
   border: 1px solid #555;
-  border-radius: 20px;
 }
 
 li a {
   display: block;
   color: white;
-  padding: 18px 16px;
+  padding: 8px 16px;
   text-decoration: none;
   font-weight: bolder;
   font-size: 17px;
@@ -61,11 +55,9 @@ li a {
 li a.activo {
   background-color: orange;
   color: white;
-  border-radius: 20px;
 }
 
 li a:hover:not(.activo) {
   background-color: darkcyan;
   color: black;
-  border-radius: 20px;
 }
