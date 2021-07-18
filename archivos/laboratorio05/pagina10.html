@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase - Parte 2</title>
+    <link rel="stylesheet" href="css/miestilo4.css" type="text/css">
+</head>
+<body>
+    <div class="cajaformulario">
+            <h1>Ingreso al Sistema</h1>
+            <div class="contenedorformulario">
+                <form action="" class="formulario">
+                    <div class="contenedorinput">
+                        <label for="txtCor">Correo:</label>
+                        <input type="text" name="txtCor" id="txtCor" placeholder="Ingrese su correo">
+                        <br>
+                        <label for="txtCon">Contraseña:</label>
+                        <input type="password" name="txtCon" id="txtCon" placeholder="Ingrese su contraseña">
+                        <br>
+                    </div>
+                    <input type="button" value="Ingresar" name="btnIngresar" id="btnIngresar" class="boton">
+                </form>
+            </div>
+    </div>
+<script src="js/bibliotecaingresousuario.js" type="text/javascript"></script>
+
+<!-- Biblioteca de Firebase -->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-analytics.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+
+<script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+    apiKey: "AIzaSyArD0vuyKeBLRDkh7BuvtSA3zAqHKah_iQ",
+    authDomain: "proyectoweb-f9ee4.firebaseapp.com",
+    projectId: "proyectoweb-f9ee4",
+    storageBucket: "proyectoweb-f9ee4.appspot.com",
+    messagingSenderId: "145548154194",
+    appId: "1:145548154194:web:950138124e7ae925db968b",
+    measurementId: "G-C8G37V064V"
+};
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+    //creamos una constante para las opciones de autenticación
+    const auth = firebase.auth();
+</script>
+</body>
+</html>

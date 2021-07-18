@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body{
+    background-image: url(/archivos/laboratorio05/img/Fondo5.jpg);
+    background-repeat: no-repeat;
+    background-size: 1380px 720px;
+    background-position: center top;
+    font-size: 18px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 45px;
+    margin-bottom: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cajaformulario{
+    background-color: rgba(89, 99, 102, 0);
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    border-radius: 10px 10px;
+    margin-top: 80px;
+}
+
+.contenedorformulario{
+    background: rgba(255, 255, 255, 0.589);
+    width: 250px;
+    margin-left: 275px;
+    margin-top: 50px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.formulario .contenedorinput{
+    padding: 15px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="password"]{
+    display: block;
+    width: 100%;
+    margin-bottom: 1px;
+    padding: 8px 10px;
+    border: none;
+    color: black;
+    background-color: rgba(139, 159, 160, 0.692);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.63);
+    font-family: 'Slabo 13px', serif;
+    font-size: 16px;
+}
+
+.boton{
+    background-color: cornflowerblue;
+    width: 100%;
+    text-align: center;
+    border: none;
+    display: block;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 0 0 10px 10px;
+    font-family: 'Slabo 13px', serif;
+    font-size: 18px;
+}
+
+.formulario .boton:hover {
+    background-color: rgb(101, 174, 177);
+}

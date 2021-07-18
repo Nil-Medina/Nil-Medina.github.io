@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase - Parte 1</title>
+    <link rel="stylesheet" href="css/miestilo.css" type="text/css">
+</head>
+<body>
+    <div class="cajabackground">
+        <h1>Registro de Productos</h1>
+        <div class="contenedor">
+            <form action="" class="formulario">
+                <div class="contenedorinput">
+                    <label for="txtNom">Nombre del producto:</label>
+                    <input type="text" name="txtNom" id="txtNom"><br>
+                    <label for="txtPre">Precio del Producto:</label>
+                    <input type="text" name="txtPre" id="txtPre"><br>
+                    <label for="">Categoria:</label>
+                    <select class="botondeopciones" name="cboCategoria" id="cboCategoria">
+                        <option value="0">Selecione una Categoria</option>
+                        <option value="1">Entretenimiento</option>
+                        <option value="2">Tecnologia</option>
+                        <option value="3">Linea Blanca</option>
+                    </select><br>
+                    <label for="txtCan">Cantidad:</label>
+                    <input type="number" name="txtCan" id="txtCan">
+                </div>
+                <input type="button" class="boton" value="Registrar" id="btnRegistrar" name="btnRegistrar">
+            </form>
+        </div>
+        <div class="tablaregistro">
+                <table id="tbRegistro">
+                    <thead>
+                        <th>Nombre del Producto</th>
+                        <th>Precio del Producto</th>
+                        <th>Categoria del Producto</th>
+                        <th>Cantidad</th>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+        </div>
+    </div>
+    <script src="js/bibliotecaproductos.js" type="text/javascript"></script>
+    <script src="js/producto.js" type="text/javascript" ></script>
+</body>
+</html>

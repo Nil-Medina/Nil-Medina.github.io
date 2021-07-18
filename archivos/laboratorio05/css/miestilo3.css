@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body{
+    font-size: 20px;
+    background-image: url(/archivos/laboratorio05/img/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size: 1380px 720px;
+    background-position: center top;
+}
+
+h1{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 40px;
+    margin-bottom: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedorformulario{
+    background: rgba(255, 255, 255, 0.589);
+    width: 300px;
+    margin-left: 250px;
+    margin-top: 50px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.cajaformulario{
+    background-color: rgba(89, 99, 102, 0.384);
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    border-radius: 10px 10px;
+    margin-top: 80px;
+}
+
+.formulario .contenedorinput{
+    padding: 15px;
+}
+
+.formulario input[type="text"]{
+    display: block;
+    width: 100%;
+    margin-bottom: 1px;
+    padding: 8px 10px;
+    border: none;
+    color: black;
+    background-color: rgba(95, 158, 160, 0.692);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.63);
+    font-family: 'Slabo 13px', serif;
+    font-size: 16px;
+}
+
+.cajaboton1{
+    height: 10px;
+}
+
+.boton1{
+    width: 50%;
+    text-align: center;
+    background-color: cadetblue;
+    border: none;
+    display: block;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 0 0 0px 10px;
+    font-family: 'Slabo 13px', serif;
+    font-size: 18px;
+}
+
+.cajaboton2{
+    margin-left: 50%;
+    margin-top: -10px;
+}
+
+.boton2{
+    width: 100%;
+    text-align: center;
+    background-color: cadetblue;
+    border: none;
+    display: block;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 0 0 10px 0px;
+    font-family: 'Slabo 13px', serif;
+    font-size: 18px;
+}
+
+.formulario .boton1:hover {
+    background-color: rgb(101, 174, 177);
+}
+
+.formulario .boton2:hover {
+    background-color: rgb(101, 174, 177);
+}
