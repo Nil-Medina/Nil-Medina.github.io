@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Como primer paso para un diseño responsivo configuramos las escalas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=1.0,minimun-scale=1.0">
     <!--Es necesario definir el description y los keywords
     description es una descripcion de tu sitio web keyword
     palabras claves relacionadas al sitio web -->
     <meta name="description" content="">
     <meta name="keywords" content="">
     <title>Ejemplo 2 HTML</title>
-    <link rel="stylesheet" type="text/css" href="css/menuinicio.css">
+    <!-- Llamamos al estilo -->
+    <link rel="stylesheet" href="css/estilo.css" type="text/css">
 </head>
 <body>
     <!--Inicio del contenedor-->
-    <div>
+    <div class="contenedor">
     <!--Inicia el Header-->
     <header>
         <!--Inicia el Menu Principal-->
@@ -31,14 +33,14 @@
     </header>
 <!--Fin del Header-->
 <!--Inicia la Seccion Principal-->
-    <section>
+    <section class="principal">
         <!--Inicia la imagen-->
-        <div>
+        <div class="imagen">
             <img src="img/foto1.jpg" alt="Edificio Moderno">
         </div>
         <!--Fin de la imagen-->
         <!--Inicia Publicaciones-->
-    <section>
+    <section class="publicaciones">
         <!--Inicia el Articulo-->
         <article>
             <h2>Titulo del Articulo</h2>
@@ -60,8 +62,8 @@
     <!--Fin de la Seccion Principal-->
     <!--Inicio de los Anuncios-->
     <aside>
-        <div>
-            <h3>Articulos Destacados</h3>
+        <div class="anuncio">
+            <h3 class="tituloanuncio">Articulos Destacados</h3>
             <ul>
                 <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></li>
                 <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></li>
@@ -70,8 +72,8 @@
                 <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></li>
             </ul>
         </div>
-        <div>
-            <h3>Información</h3>
+        <div class="anuncio">
+            <h3 class="tituloanuncio">Información</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, sapiente, sit hic illum eius similique unde saepe voluptate, rem cupiditate consequatur aliquam! Minima, voluptatum temporibus? Reprehenderit adipisci hic tempore provident.</p>
         </div>
     </aside>
