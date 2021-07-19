@@ -4,7 +4,12 @@ var txtApe = document.getElementById("txtApe");
 var txtCor = document.getElementById("txtCor");
 var tbnRegistrar = document.getElementById("tbnRegistrar")
 var btnRegistrar = document.getElementById("btnRegistrar")
-
+//creamos la funcion limpiar
+function Limpiar(){
+    txtNom.value="";
+    txtApe.value="";
+    txtCor.value="";
+}
 //creamos un procedimiento para mostrar
 function MostrarRegistro(){
     //declaramos una variable para guardar los datos
@@ -37,6 +42,7 @@ function RegistrarDatos(){
     //Llamamos al procedimiento Registrar
     Registrar(nom,ape,cor);
     MostrarRegistro();
+    Limpiar();
 }
 
 //Agregamos un evento al boton regustrar
