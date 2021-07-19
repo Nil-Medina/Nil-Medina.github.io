@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Firebase - Parte 1</title>
+    <link rel="stylesheet" href="css/miestilo1.css" type="text/css">
 </head>
 <body>
     <!-- Firebase
@@ -33,26 +34,33 @@
     Las bases de datos no relacional, donde las tablas no estan relacionadas, por 
     lo general se les llama No SQL y utilizan JSON para almacenar la información
     JSON viene de las siglas JavaScript Object Notation, se trata de un formato para guardar en intercambiar informacion que cualquier persona pueda leer. Sus archivos se guardan con extension .json. -->
-    <form action="">
+    <div class="cajaformulario">
         <h1>Registros de Datos</h1>
-        <label for="txtNom">Nombres:</label>
-        <input type="text" name="txtNom" id="txtNom" placeholder="Ingrese su Nombre"><br>
-        <label for="txtApe">Apellidos:</label>
-        <input type="text" name="txtApe" id="txtApe" placeholder="Ingrese su Apellido"><br>
-        <label for="txtCor">Correo:</label>
-        <input type="text" name="txtCor" id="txtCor" placeholder="Ingrese su Correo"><br>
-        <input type="button" value="Registrar" id="btnRegistrar" name="btnRegistrar">
-    </form>
-    <hr>
-    <table id="tbRegistro">
-        <thead>
-            <th>Nombres</th>
-            <th>Apellidos</th>
-            <th>Correo</th>
-        </thead>
-        <tbody></tbody>
-    </table>
-    <script src="/js/bibliotecaregistro.js" type="text/javascript"></script>
-    <script src="/js/registro.js" type="text/javascript" ></script>
+        <div class="contenedorformulario">
+            <form action="" class="formulario">
+                <div class="contenedorinput">
+                    <label for="txtNom">Nombres:</label>
+                    <input type="text" name="txtNom" id="txtNom" placeholder="Ingrese su Nombre"><br>
+                    <label for="txtApe">Apellidos:</label>
+                    <input type="text" name="txtApe" id="txtApe" placeholder="Ingrese su Apellido"><br>
+                    <label for="txtCor">Correo:</label>
+                    <input type="text" name="txtCor" id="txtCor" placeholder="Ingrese su Correo"><br>
+                </div>
+                <input type="button" value="Registrar" id="btnRegistrar" name="btnRegistrar" class="boton">
+            </form>
+        </div>
+    </div>
+    <div class="cajatabla">
+        <table id="tbRegistro">
+            <thead>
+                <th>Nombres</th>
+                <th>Apellidos</th>
+                <th>Correo</th>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="js/bibliotecaregistro.js" type="text/javascript"></script>
+    <script src="js/registro.js" type="text/javascript" ></script>
 </body>
 </html>
